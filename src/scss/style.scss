@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$media-link-color-hover: #2B7487; 
+
+body {
+    background-color: rgba(103, 194, 194, 100); 
+    color: white; 
+    text-align: center; 
+    padding-top: 20%; 
+    font-family: 'Roboto', sans-serif;
+}
+.name{
+    font-size: 40pt; 
+}
+.description-words {
+    font-size: 30pt; 
+}
+.links{
+    margin-top: 20pt; 
+    font-size: 30pt; 
+}
+.icon-white{
+    color: white; 
+}
+
+svg{
+    fill:white;
+}
+.icon{
+    width: 55px;
+    margin-right: 10pt; 
+    vertical-align:middle
+}
+
+.link:link {
+    color: white;
+}
+.link:visited {
+    color: white;
+}
+.link:hover {
+    color: $media-link-color-hover;
+    .icon{
+        fill:$media-link-color-hover; 
+    }
+
+}
+.link:active {
+    color: grey;
+}
